@@ -52,7 +52,7 @@ SAVE_INTERVAL = 1       # Save a backup every 5 epochs
 # This is the most important weight. It forces detail preservation.
 lambda_cycle = 10.0
 # This helps the model learn the sketch style more efficiently.
-lambda_identity = 5.0
+lambda_identity = 0.5
 
 # --- 1. Model Definitions ---
 # The Generator and Discriminator classes are the building blocks.
