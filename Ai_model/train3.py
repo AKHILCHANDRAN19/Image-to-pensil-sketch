@@ -46,7 +46,7 @@ IMG_WIDTH = 224
 CHANNELS = 3
 BATCH_SIZE = 1          # Keep at 1 for mobile CPU
 LEARNING_RATE = 0.0002
-SAVE_INTERVAL = 5       # Save a backup every 5 epochs
+SAVE_INTERVAL = 1       # Save a backup every 5 epochs
 
 # 3. Loss Weights - These control the "art style"
 # This is the most important weight. It forces detail preservation.
